@@ -1,8 +1,8 @@
 ## Introduction
 
-It's the general project to walk through the proceses of using [TensorFlow](https://github.com/tensorflow/tensorflow).
+It's the general project to walk through the process of using [TensorFlow](https://github.com/tensorflow/tensorflow).
 
-Most data is stored in CSV files and you can learn to convert them to **TFRecords**. This implements the **neural network** model which can extend to more complicated ones. It stores **checkpoints** for fault tolerance and **inference**. You can learn to use **TensorBoard** as well and the example data could be found in [cancer-deep-learning-model](https://github.com/mark-watson/cancer-deep-learning-model).
+Most data is stored in CSV files and you can learn to convert them to **TFRecords**. This implements the **neural network** model which can be extended to more complicated ones. It stores **checkpoints** for fault tolerance and **inference**. You can learn to use **TensorBoard** as well and the example data could be found in [cancer-deep-learning-model](https://github.com/mark-watson/cancer-deep-learning-model).
 
 ## Usage
 
@@ -31,7 +31,7 @@ We can use the `cancer_classifier.py` to train or implement your model. Refer to
 python cancer_classifier.py
 ```
 
-You can also train the model from scrath and this takes time for better auc.
+You can also train the model from scratch and this takes time for better auc.
 
 ```
 python cancer_classifier.py --mode=train_from_scratch
@@ -51,7 +51,7 @@ CUDA_VISIBLE_DEVICES='0'
 
 ### Use TensorBoard
 
-The summary data is stored in [tensorboard](./tensorboard/) and we use TenorBoard for visualization.
+The summary data is stored in [tensorboard](./tensorboard/) and we use TensorBoard for visualization.
 
 ```
 tensorboard --logdir ./tensorboard/
